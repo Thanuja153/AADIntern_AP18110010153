@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="8dp"
+    android:background="#F0F8C0FA"
+    >
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="140dp"
+        android:id="@+id/imgview"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text1"
+            android:textSize="25sp"
+            android:id="@+id/txt1"
+            android:textColor="#070C00"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text2"
+            android:textSize="25sp"
+            android:id="@+id/txt2"
+            android:textColor="#0C0C0C"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text3"
+            android:textSize="25sp"
+            android:id="@+id/txt3"
+            android:textColor="#05000C"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text4"
+            android:textSize="25sp"
+            android:id="@+id/txt4"
+            android:textColor="#110113"
+            android:layout_marginLeft="10dp"
+            />
+
+
+    </LinearLayout>
+</LinearLayout>
